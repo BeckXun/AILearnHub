@@ -10,3 +10,8 @@ dependencies = [
     "python-dotenv>=1.1.1",
     "sentence-transformers>=5.0.0",
 ]
+
+[[tool.uv.index]]
+name = "prod"
+url = "https://pypi.sankuai.com/simple/"
+publish-url = "https://pypi.sankuai.com"
